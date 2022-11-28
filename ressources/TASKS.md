@@ -1,8 +1,8 @@
 ### 5 classes
 - [ ] Burger
 - [x] Sauces
-- [ ] McTacos
-- [ ] McBuckets
+- [ ] BigMac
+- [ ] BigTasty
 - [ ] McTiramisu
 
 ### 2 test unitaires -> 2 classes
