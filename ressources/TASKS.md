@@ -1,5 +1,5 @@
 ### 5 classes
-- [ ] Burger
+- [x] Burger
 - [x] Sauce
 - [ ] BigMac
 - [ ] BigTasty
