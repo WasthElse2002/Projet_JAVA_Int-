@@ -1,0 +1,11 @@
+package fr.bpj;
+
+public enum Sauces {
+	BIG_MAC,
+	ROYAL_DELUXE,
+	BIG_TASTY,
+	KETCHUP,
+	CREAMY_DELUXE,
+	SWEET_N_SOUR,
+	CLASSIC_BARBECUE
+}
