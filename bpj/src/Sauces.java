@@ -1,5 +1,3 @@
-package fr.bpj;
-
 public enum Sauces {
 	BIG_MAC,
 	ROYAL_DELUXE,
