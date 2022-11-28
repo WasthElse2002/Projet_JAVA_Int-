@@ -1,4 +1,4 @@
-public enum Sauces {
+public enum Sauce {
 	BIG_MAC,
 	ROYAL_DELUXE,
 	BIG_TASTY,

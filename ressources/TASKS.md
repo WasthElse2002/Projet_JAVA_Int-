@@ -1,6 +1,6 @@
 ### 5 classes
 - [ ] Burger
-- [x] Sauces
+- [x] Sauce
 - [ ] BigMac
 - [ ] BigTasty
 - [ ] McTiramisu
