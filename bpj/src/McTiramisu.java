@@ -6,11 +6,12 @@ public class McTiramisu {
 
     public void addIngredients(Ingredients ingredients) {
         this.ingredients.add(ingredients);
+        for(int i = 0; i < this.ingredients.size(); i++) {
+            System.out.print(this.ingredients.get(i));
+        }
     }
 
-    for(int i = 0; i < ingredients.size(); i++) {
-        System.out.print(ingredients.get(i));
-    }
-    public McTiramisu() {
+    public String McTiramisu() {
+        return "Mon tiramisu est composé de" + (this.ingredients);
     }
 }
