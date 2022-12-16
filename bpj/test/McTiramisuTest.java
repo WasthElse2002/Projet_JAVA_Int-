@@ -1,10 +1,11 @@
 package bpj.test;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.assertNotNull;
 
+import bpj.src.Ingredients;
+import bpj.src.McTiramisu;
 import org.junit.Test;
-import bpj.src.*;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 public class McTiramisuTest {
 
@@ -13,17 +14,15 @@ public class McTiramisuTest {
 	public final void testMcTiramisu() {
 		McTiramisu monTiramisu = new McTiramisu();
 
-		monTiramisu.addIngredients(Ingredients.CHOCOLAT);
+		monTiramisu.addIngredients(Ingredients.BISCUITS);
 		monTiramisu.addIngredients(Ingredients.CAFE);
 
-		assertEquals(monTiramisu.getMcTiramisu(), "Mon tiramisu est composé de" + (monTiramisu.ingredients));
-
+		assertEquals(monTiramisu.getMcTiramisu(), "Mon tiramisu est composé de" + monTiramisu.getIngredients());
 	}
 
+	@Test
 	public final void testAddIngredients() {
-
 		McTiramisu monTiramisu = new McTiramisu();
-		assertNotNull(monTiramisu.ingredients);
-
+		assertNotNull(monTiramisu.getIngredients());
 	}
 }

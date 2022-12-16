@@ -45,6 +45,6 @@ public class Burger {
 	 * @return String
 	 */
 	public String whatsInMyBurger() {
-		return "Mon burger est composé " + (this.steak ? "d'un steak" : "") + (this.salad != null ? ", de salade " + this.salad.getType() : "");
+		return "Mon burger est composé " + (this.steak ? "d'un steak" : "") + (this.salad != null ? ", de salade " + this.salad.getType() : "") + (this.salad != null ? ", d'une sauce " + this.sauce : "");
 	}
 }

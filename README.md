@@ -1,5 +1,12 @@
 # Projet_JAVA_Inté
 
+## Prérequis
+Afin de pouvoir exécuter l'application sur votre poste, vous devez d'aborder installer les dépendances suivantes :
+  * JUnit pour les test unitaires
+  * Java 8 minimum
+  * Un éditeur de code
+
+## Consigne
 En équipe de 2 - 4
 
 Je veux que vous créer un projet Java
@@ -22,10 +29,3 @@ Le projet doit posséder un githook pour le commit et le pre push
 Les hooks du projet doivent être automatiquement mise en place dès que le projet est clone.
 
 Une liste de ces hooks avec une description de leur action doit être lisible sur le README de votre git.
-
-## Prérequis
-Afin de pouvoir exécuter l'application sur votre poste, vous devez d'aborder installer les dépendances suivantes :
-  * JUnit pour les test unitaires
-  * Java 8 minimum
-  * Un éditeur de code
- 
