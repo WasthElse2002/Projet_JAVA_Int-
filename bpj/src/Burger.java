@@ -1,3 +1,4 @@
+package bpj.src;
 public class Burger {
 	public Sauce sauce;
 	public boolean steak;

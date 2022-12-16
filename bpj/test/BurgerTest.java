@@ -1,9 +1,13 @@
+package bpj.test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
+import bpj.src.*;
+import org.junit.Test;
 
 public class BurgerTest {
 
-	public final void SimpleBurger() {
+	@Test
+	public final void simpleBurger() {
 		Burger myBigBurger = new Burger(Sauce.KETCHUP);
 
 		myBigBurger.addSteak();
