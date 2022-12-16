@@ -1,3 +1,4 @@
+package bpj.src;
 public enum Sauce {
 	BIG_MAC,
 	ROYAL_DELUXE,

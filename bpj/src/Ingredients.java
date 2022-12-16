@@ -1,3 +1,4 @@
+package bpj.src;
 public enum Ingredients {
 
     MASCARPONE("Mascarpone"),
