@@ -16,6 +16,10 @@ public class McTiramisu {
         }
     }
 
+    public ArrayList<Ingredients> getIngredients() {
+        return this.ingredients;
+    }
+
     public String getMcTiramisu() {
         return "Mon tiramisu est composé de" + (this.ingredients);
     }
