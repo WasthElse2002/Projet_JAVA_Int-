@@ -1,0 +1,10 @@
+package bpj.src;
+public enum Sauce {
+	BIG_MAC,
+	ROYAL_DELUXE,
+	BIG_TASTY,
+	KETCHUP,
+	CREAMY_DELUXE,
+	SWEET_N_SOUR,
+	CLASSIC_BARBECUE
+}

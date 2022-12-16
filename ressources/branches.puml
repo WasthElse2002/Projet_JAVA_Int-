@@ -1,0 +1,13 @@
+@startuml
+actor Nous as nous
+collections Dev as dev
+collections Stage as stage
+collections Main as main
+
+nous -> dev : Commits
+dev -> stage : Merge Request
+
+nous -->> stage : Fix commit éventuel
+
+stage -> main : Merge Request
+@enduml
