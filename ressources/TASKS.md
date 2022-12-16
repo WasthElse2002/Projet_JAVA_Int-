@@ -1,11 +1,12 @@
 ### 5 classes
 - [x] Burger
 - [x] Sauce
-- [ ] BigMac
-- [ ] BigTasty
-- [ ] McTiramisu
+- [X] BigMac
+- [x] McTiramisu
 
-### 2 test unitaires -> 2 classes
+### 2 test unitaires
+- [x] BurgerTest
+- [x] McTiramisuTest
 
 ### Githooks
 - [ ] commit
